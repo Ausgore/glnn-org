@@ -11,7 +11,6 @@ export default function Projects() {
 			<SectionHeader>Projects</SectionHeader>
 			<div className="grid grid-cols-1 lg:grid-cols-2">
 				<ProjectCard>
-					<img src="images/glnn.png" alt="" />
 					<ProjectCardHeader url="https://github.com/ausgore/glnn-org" image="images/glnn.png"> glnn.dev </ProjectCardHeader>
 					<ProjectCardArticle author="React - Tailwind - Framer Motion - Typescript">
 						You're here right now! This website showcases my skills as a programmer and the projects that I've worked on.

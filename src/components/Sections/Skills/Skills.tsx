@@ -3,10 +3,6 @@ import SectionWrapper from "../SectionWrapper";
 
 import { motion } from 'framer-motion';
 import SkillsArticle from "./components/SkillsArticle";
-import { SiCss3, SiHtml5, SiJavascript, SiReact, SiTailwindcss, SiTypescript, SiVite, SiMongodb, SiMysql, SiNestjs, SiNodedotjs, SiPostgresql, SiSequelize, SiSqlite, SiFigma, SiGit, SiNpm, SiPostman, SiYarn} from "react-icons/si";
-import SkillLogo from './components/SkillLogo';
-import { BiLogoCss3 } from 'react-icons/bi';
-
 
 export default function Skills() {
 
@@ -21,14 +17,9 @@ export default function Skills() {
 				transition={{ ease: "easeOut", duration: 1 }}
 				className="grid grid-rows-3 grid-cols-1 lg:grid-cols-3 lg:grid-rows-1 text-center"
 			>
-				{/* <SkillsArticle title="Front End" logos={["css3", "html5", "javascript", "react", "tailwindcss", "typescript", "vite"]} />
+				<SkillsArticle title="Front End" logos={["css3", "html5", "javascript", "react", "tailwindcss", "typescript", "vite"]} />
 				<SkillsArticle title="Back End" logos={["mongodb", "mysql", "nestjs", "nodedotjs", "postgresql", "sequelize", "sqlite"]} />
-				<SkillsArticle title="Tools" logos={["figma", "git", "npm", "postman", "yarn"]} /> */}
-				<SkillsArticle title="Front end">
-					<SkillLogo logo={BiLogoCss3} color="blue" />
-				</SkillsArticle>
-				<SkillsArticle title="Back End">
-				</SkillsArticle>
+				<SkillsArticle title="Tools" logos={["figma", "git", "npm", "postman", "yarn"]} />
 			</motion.div>
 		</SectionWrapper>
 	)

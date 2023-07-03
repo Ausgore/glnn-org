@@ -9,7 +9,7 @@ export default function MediaNav() {
 			<MediaNavItems>
 				<MediaNavItem icon={faLinkedin} url="https://www.linkedin.com/in/glenn-marcell-tjandra-a13529281/" />
 				<MediaNavItem icon={faGithub} url="https://github.com/ausgore" delay={0.3}/>
-				<MediaNavItem icon={faFilePdf} delay={0.6}/>
+				<MediaNavItem icon={faFilePdf} url="https://drive.google.com/file/d/1dQNXMotMHoI8ekfgLmkB6XRpSzj2Uqf2/view?usp=sharing" delay={0.6}/>
 			</MediaNavItems>
 		</nav>
 	);

@@ -2,7 +2,7 @@ export default function MainNavIcon() {
 	function handleClick() {
 		window.history.pushState({}, "", "#");
 		const root = document.getElementById('root');
-		root?.scrollTo({ top:0, left: 0, behavior: "smooth" });
+		root?.scrollTo({ top:0, left: 0 });
 	}
 
 	return (

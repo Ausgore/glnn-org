@@ -7,11 +7,9 @@
 	background-color: #111111;
 	overflow-x: hidden;
 	font-family: 'Poppins', sans-serif;
-}
-
-#root {
 	height: 100vh;
 	cursor: default;
+	scroll-behavior: smooth;
 }
 
 ::selection {

@@ -10,7 +10,7 @@ export default function MainNavItem({ children, scrollTo }: MainNavItemProps) {
 	function scrollToSection() {
 		window.history.pushState({}, "", `#${scrollTo}`);
 		const element = document.getElementById(scrollTo as string);
-		element?.scrollIntoView({ behavior: "smooth" });
+		element?.scrollIntoView(true);
 	}
 
 	return (
